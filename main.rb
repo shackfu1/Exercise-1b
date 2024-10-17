@@ -2,7 +2,7 @@ class Bike
   # ...
 end
 
-class RedBicycle < Bike
+class ColoredBicycle < Bike
 
   weight_reduction = 10
 
@@ -16,11 +16,11 @@ class RedBicycle < Bike
     @color
   end
 
-  def retreive_height
+  def get_height
     @height
   end
 
-  def change_weight
+  def reduce_weight
     @weight -= weight_reduction
   end
 end
